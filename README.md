@@ -17,7 +17,9 @@ This sample contains:
 ## 1. Create/install the Expo app
 
 ```bash
+rm -rf android #only needed to reinitate a clean build
 npm install
+npx expo prebuild --platform android
 npx expo run:android --device
 ```
 
