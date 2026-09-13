@@ -1,0 +1,19 @@
+appId: com.example.aiautomationdemo
+
+---
+- launchApp:
+    clearState: true
+
+- assertVisible: "AI Automation Demo"
+
+- tapOn: "Name input"
+- inputText: "Ada"
+
+- tapOn: "Say hello"
+- assertVisible: "Hello, Ada!"
+
+- tapOn: "Name input"
+- eraseText
+
+- tapOn: "Say hello"
+- assertVisible: "Please enter your name"
