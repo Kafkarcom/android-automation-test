@@ -2,7 +2,7 @@
   "name": "expo-android-ai-test-sample",
   "version": "1.0.0",
   "private": true,
-  "main": "expo-router/entry",
+  "main": "index.js",
   "scripts": {
     "start": "index.js",
     "android": "expo run:android",

@@ -8,12 +8,14 @@ appId: com.example.aiautomationdemo
 
 - tapOn: "Name input"
 - inputText: "Ada"
+- pressKey: Back
 
 - tapOn: "Say hello"
 - assertVisible: "Hello, Ada!"
 
 - tapOn: "Name input"
 - eraseText
+- pressKey: Back
 
 - tapOn: "Say hello"
 - assertVisible: "Please enter your name"
