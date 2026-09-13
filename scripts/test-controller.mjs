@@ -34,9 +34,9 @@ async function main() {
   console.log(devices);
 
   const connected = devices
-    .split('\\n')
+    .split('\n')
     .slice(1)
-    .filter(line => line.trim().endsWith('\\tdevice'));
+    .filter(line => line.trim().endsWith('\tdevice'));
 
   if (connected.length !== 1) {
     throw new Error(

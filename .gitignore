@@ -45,3 +45,7 @@ build-*.apk
 
 .obsidian/
 
+# test artifacts
+artifacts/
+docs/testreports/
+
